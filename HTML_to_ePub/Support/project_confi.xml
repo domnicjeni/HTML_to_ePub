@@ -1,0 +1,219 @@
+<xml>
+
+<publisher>
+<name>WWNorton</name>
+<Language>English-en</Language>
+<epubVersion>ePub 3</epubVersion>
+<ePubStructure>Semantic</ePubStructure>
+<OpfName>content</OpfName>
+<NCXName>toc</NCXName>
+<HTMLFileName>Our Standard</HTMLFileName>
+<EntityType>Decimal</EntityType>
+<fileSplit>Level 1</fileSplit>
+<footnoteMovement>Level 1</footnoteMovement>
+<Navigation>TOC</Navigation>
+<RootFolderName>OEBPS</RootFolderName>
+<HTMLFolderName>XHTML</HTMLFolderName>
+<CSSFolderName>Styles</CSSFolderName>
+<ImagesFolderName>images</ImagesFolderName>
+<mappingDoc>Norton_config.xml</mappingDoc>
+<includeFigureInNav>yes</includeFigureInNav>
+<includeTableInNav>yes</includeTableInNav>
+<Links>
+<Figure>Yes</Figure>
+<Table>Yes</Table>
+<Footnote>Yes</Footnote>
+<Chapter_Part>Yes</Chapter_Part>
+<Box>Yes</Box>
+<Chap_Part_Toc>Yes</Chap_Part_Toc>
+<Index>No</Index>
+<Web_Email>No</Web_Email>
+<Validation>No</Validation>
+</Links>
+</publisher>
+
+<publisher>
+<name>West-Academic</name>
+<Language>English-en</Language>
+<epubVersion>ePub 3</epubVersion>
+<ePubStructure>Semantic</ePubStructure>
+<OpfName>content</OpfName>
+<NCXName>toc</NCXName>
+<HTMLFileName>Our Standard</HTMLFileName>
+<EntityType>Decimal</EntityType>
+<fileSplit>Level 1</fileSplit>
+<footnoteMovement>Level 1</footnoteMovement>
+<Navigation>TOC</Navigation>
+<RootFolderName>OEBPS</RootFolderName>
+<HTMLFolderName>No Folder</HTMLFolderName>
+<CSSFolderName>No Folder</CSSFolderName>
+<ImagesFolderName>No Folder</ImagesFolderName>
+<mappingDoc>Tagmapping_config.xml</mappingDoc>
+<includeFigureInNav>no</includeFigureInNav>
+<includeTableInNav>no</includeTableInNav>
+<Links>
+<Figure>Yes</Figure>
+<Table>Yes</Table>
+<Footnote>Yes</Footnote>
+<Chapter_Part>Yes</Chapter_Part>
+<Box>Yes</Box>
+<Chap_Part_Toc>Yes</Chap_Part_Toc>
+<Index>No</Index>
+<Web_Email>No</Web_Email>
+<Validation>NO</Validation>
+</Links>
+</publisher>
+
+
+<publisher>
+<name>VIP</name>
+<Language>English-en</Language>
+<epubVersion>ePub 3</epubVersion>
+<ePubStructure>Semantic</ePubStructure>
+<OpfName>content</OpfName>
+<NCXName>toc</NCXName>
+<HTMLFileName>Our Standard</HTMLFileName>
+<EntityType>Decimal</EntityType>
+<fileSplit>Level 1</fileSplit>
+<footnoteMovement>Level 1</footnoteMovement>
+<Navigation>TOC</Navigation>
+<RootFolderName>OEBPS</RootFolderName>
+<HTMLFolderName>XHTML</HTMLFolderName>
+<CSSFolderName>Styles</CSSFolderName>
+<ImagesFolderName>images</ImagesFolderName>
+<mappingDoc>Tagmapping_config.xml</mappingDoc>
+<includeFigureInNav>no</includeFigureInNav>
+<includeTableInNav>no</includeTableInNav>
+<Links>
+<Figure>Yes</Figure>
+<Table>Yes</Table>
+<Footnote>Yes</Footnote>
+<Chapter_Part>Yes</Chapter_Part>
+<Box>Yes</Box>
+<Chap_Part_Toc>Yes</Chap_Part_Toc>
+<Index>Yes</Index>
+<Web_Email>Yes</Web_Email>
+<Validation>No</Validation>
+</Links>
+</publisher>
+<publisher>
+<name>Vandenhoeck</name>
+<Language>German-de</Language>
+<epubVersion>ePub 2</epubVersion>
+<ePubStructure>Semantic</ePubStructure>
+<OpfName>content</OpfName>
+<NCXName>toc</NCXName>
+<HTMLFileName>Our Standard</HTMLFileName>
+<EntityType>Decimal</EntityType>
+<fileSplit>Level 1</fileSplit>
+<footnoteMovement>Level 1</footnoteMovement>
+<Navigation>TOC</Navigation>
+<RootFolderName>EPUB</RootFolderName>
+<HTMLFolderName>xhtml</HTMLFolderName>
+<CSSFolderName>styles</CSSFolderName>
+<ImagesFolderName>images</ImagesFolderName>
+<mappingDoc>Tagmapping_config.xml</mappingDoc>
+<includeFigureInNav>no</includeFigureInNav>
+<includeTableInNav>no</includeTableInNav>
+<Links>
+<Figure>Yes</Figure>
+<Table>Yes</Table>
+<Footnote>Yes</Footnote>
+<Chapter_Part>Yes</Chapter_Part>
+<Box>Yes</Box>
+<Chap_Part_Toc>Yes</Chap_Part_Toc>
+<Index>Yes</Index>
+<Web_Email>Yes</Web_Email>
+<Validation>No</Validation>
+</Links>
+</publisher>
+<publisher>
+<name>Hachette</name>
+<Language>French-fr</Language>
+<epubVersion>ePub 3</epubVersion>
+<ePubStructure>Accessible</ePubStructure>
+<OpfName>content</OpfName>
+<NCXName>toc</NCXName>
+<HTMLFileName>Our Standard</HTMLFileName>
+<EntityType>Decimal</EntityType>
+<fileSplit>Level 1</fileSplit>
+<footnoteMovement>Level 1</footnoteMovement>
+<Navigation>TOC</Navigation>
+<RootFolderName>OEBPS</RootFolderName>
+<HTMLFolderName>XHTML</HTMLFolderName>
+<CSSFolderName>Styles</CSSFolderName>
+<ImagesFolderName>images</ImagesFolderName>
+<mappingDoc>Tagmapping_config.xml</mappingDoc>
+<includeFigureInNav>no</includeFigureInNav>
+<includeTableInNav>no</includeTableInNav>
+<Links>
+<Figure>Yes</Figure>
+<Table>Yes</Table>
+<Footnote>Yes</Footnote>
+<Chapter_Part>Yes</Chapter_Part>
+<Box>Yes</Box>
+<Chap_Part_Toc>Yes</Chap_Part_Toc>
+<Index>Yes</Index>
+<Web_Email>Yes</Web_Email>
+<Validation>No</Validation>
+</Links>
+</publisher>
+<publisher>
+<name>APA</name>
+<Language>English-en</Language>
+<epubVersion>ePub 3</epubVersion>
+<ePubStructure>Accessible</ePubStructure>
+<OpfName>content</OpfName>
+<NCXName>toc</NCXName>
+<HTMLFileName>Our Standard</HTMLFileName>
+<EntityType>Decimal</EntityType>
+<fileSplit>Level 1</fileSplit>
+<footnoteMovement>Level 2</footnoteMovement>
+<Navigation>TOC</Navigation>
+<RootFolderName>OEBPS</RootFolderName>
+<HTMLFolderName>XHTML</HTMLFolderName>
+<CSSFolderName>Styles</CSSFolderName>
+<ImagesFolderName>images</ImagesFolderName>
+<mappingDoc>Tagmapping_config.xml</mappingDoc>
+<includeFigureInNav>no</includeFigureInNav>
+<includeTableInNav>no</includeTableInNav>
+<Links>
+<Figure>Yes</Figure>
+<Table>Yes</Table>
+<Footnote>Yes</Footnote>
+<Chapter_Part>Yes</Chapter_Part>
+<Box>Yes</Box>
+<Chap_Part_Toc>Yes</Chap_Part_Toc>
+<Index>Yes</Index>
+<Web_Email>Yes</Web_Email>
+<Validation>No</Validation>
+</Links>
+</publisher>
+<publisher><name>ACM-XML</name><Language>English-en</Language><epubVersion>ePub 3</epubVersion><ePubStructure>Accessible</ePubStructure><OpfName>package</OpfName><NCXName>toc</NCXName><HTMLFileName>Our Standard</HTMLFileName><EntityType>Decimal</EntityType><fileSplit>Level 1</fileSplit><footnoteMovement>Level 1</footnoteMovement><Navigation>All Heading</Navigation><RootFolderName>OEBPS</RootFolderName><HTMLFolderName>xhtml</HTMLFolderName><CSSFolderName>styles</CSSFolderName><ImagesFolderName>images</ImagesFolderName><mappingDoc>ACM_mapping_config.xml</mappingDoc><includeFigureInNav>no</includeFigureInNav>
+<includeTableInNav>no</includeTableInNav>
+<Links>
+<Figure>Yes</Figure>
+<Table>Yes</Table>
+<Footnote>Yes</Footnote>
+<Chapter_Part>Yes</Chapter_Part>
+<Box>Yes</Box>
+<Chap_Part_Toc>Yes</Chap_Part_Toc>
+<Index>Yes</Index>
+<Web_Email>Yes</Web_Email>
+<Validation>No</Validation>
+</Links>
+</publisher><publisher><name>Kohlhammer_XML</name><Language>German-de</Language><epubVersion>ePub 2</epubVersion><ePubStructure /><OpfName>content</OpfName><NCXName>toc</NCXName><HTMLFileName>Our Standard</HTMLFileName><EntityType>Hexa-Decimal</EntityType><fileSplit>Level 1</fileSplit><footnoteMovement>Level 1</footnoteMovement><Navigation>TOC</Navigation><RootFolderName>OEBPS</RootFolderName><HTMLFolderName>Text</HTMLFolderName><CSSFolderName>Styles</CSSFolderName><ImagesFolderName>Images</ImagesFolderName><mappingDoc>Kohlhammer_mapping_config.xml</mappingDoc><includeFigureInNav>no</includeFigureInNav>
+<includeTableInNav>no</includeTableInNav>
+<Links>
+<Figure>Yes</Figure>
+<Table>Yes</Table>
+<Footnote>Yes</Footnote>
+<Chapter_Part>Yes</Chapter_Part>
+<Box>Yes</Box>
+<Chap_Part_Toc>Yes</Chap_Part_Toc>
+<Index>Yes</Index>
+<Web_Email>Yes</Web_Email>
+<Validation>No</Validation>
+</Links>
+</publisher>
+<publisher><name>dummy</name><Language>English-en</Language><epubVersion>ePub 3</epubVersion><ePubStructure>Semantic</ePubStructure><OpfName>content</OpfName><NCXName>toc</NCXName><HTMLFileName>Our Standard</HTMLFileName><EntityType>Decimal</EntityType><fileSplit>Level 1</fileSplit><footnoteMovement>Level 1</footnoteMovement><Navigation>TOC</Navigation><RootFolderName>OEBPS</RootFolderName><HTMLFolderName>XHTML</HTMLFolderName><CSSFolderName>Styles</CSSFolderName><ImagesFolderName>images</ImagesFolderName><mappingDoc>dummy.xml</mappingDoc><Links><Figure>No</Figure><Table>No</Table><Footnote>No</Footnote><Chapter_Part>No</Chapter_Part><Box>No</Box><Chap_Part_Toc>No</Chap_Part_Toc><Index>No</Index><Web_Email>No</Web_Email><Validation>No</Validation></Links></publisher></xml>

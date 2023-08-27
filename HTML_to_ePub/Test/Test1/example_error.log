@@ -1,0 +1,4 @@
+example.xhtml, line 10, column 175: Opening and ending tag mismatch: p line 10 and h1
+example.xhtml, line 96, column 8: Opening and ending tag mismatch: ol line 46 and body
+example.xhtml, line 97, column 8: Opening and ending tag mismatch: body line 9 and html
+example.xhtml, line 97, column 8: Premature end of data in tag html line 3

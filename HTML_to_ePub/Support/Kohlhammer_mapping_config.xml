@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<conversion>
+<!-- Nested Clossing-->
+<nested findtag="p" find_attrib="class" find_att_value_prefix="ChapterNumber" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="part" nested_type="section" nested_level="1" nest_parent="body"/>
+
+
+<!-- List Type-->
+<listing findtag="p" find_attrib="class" find_att_value_prefix="biblio" find_att_value="biblio" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="biblio-list" list_level="1"/>
+
+
+
+<!-- Footnote Moment-->
+<footnote findtag="p" find_attrib="class" find_att_value_prefix="fn_" find_att_value="" add_p_tag="section" add_attr="epub:type|aria-label" attr_val="footnotes|Footnotes_[[seq]]" to_move_under="section1" move_before="" move_after=""/>
+
+<!-- Group Tagging-->
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="biblio" find_att_value="" grouptag="ul" add_attr="class" attr_val="ref-list" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="copy" find_att_value="" grouptag="section" add_attr="epub:type|class|aria-label" attr_val="copyright-page|copyright|Copyright Page" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="h1" find_attrib="" find_att_value_prefix="" find_att_value="" grouptag="header" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="h2" find_attrib="" find_att_value_prefix="" find_att_value="" grouptag="header" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="h3" find_attrib="" find_att_value_prefix="" find_att_value="" grouptag="header" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="h4" find_attrib="" find_att_value_prefix="" find_att_value="" grouptag="header" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="h5" find_attrib="" find_att_value_prefix="" find_att_value="" grouptag="header" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="h6" find_attrib="" find_att_value_prefix="" find_att_value="" grouptag="header" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+
+<!-- Mapping-->
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="" find_att_value="title" htmltag="h1" add_attr="" attr_val="" self_close="" add_parent="li" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+
+
+
+
+<!--Page list-->
+<pageList IDprefix="page_" chapterRestart="no" chapterPageIDPrefix="ch" pattern="{chapno}-" chap_no_roman="yes" targetEpubType="chapter" frontmatterRoman="yes" pageIdSequenc="no"/>
+
+
+<!-- pattern-->
+<example>
+{prefix} = IDprefix
+{chapno} = chapter number
+{chapprefix} = chapterPageIDPrefix
+</example>
+
+
+
+<!--XML-->
+
+<!--Post Replace-->
+<post_replace find_what="<table-wrap" replace_with="<table" case_sentive="no" regex="yes"/>
+<post_replace find_what="</table-wrap>" replace_with="</table>" case_sentive="no" regex="yes"/>
+<post_replace find_what="epub:type='intro'" replace_with="epub:type='introduction'" case_sentive="no" regex="yes"/>
+<post_replace find_what="<email>([^<]*)</email>" replace_with="<a href='mailto:\1'>\1</a>" case_sentive="no" regex="yes"/>
+<post_replace find_what="src='" replace_with="src='../images/" case_sentive="no" regex="yes"/>
+<post_replace find_what="class='isbn'" replace_with="class='cpytextts'" case_sentive="no" regex="yes"/>
+<post_replace find_what="<h2 class='ChapterNumber'/>" replace_with="" case_sentive="no" regex="yes"/>
+
+<!--Pre Replace-->
+<pre_replace find_what="</notes>\n<\?page num='([^<]*)'\?>" replace_with="<?page num='\1'?>\n</notes>" case_sentive="no" regex="yes"/>
+<pre_replace find_what="</sec>\n<\?page num='([^<]*)'\?>" replace_with="<?page num='\1'?>\n</sec>" case_sentive="no" regex="yes"/>
+<pre_replace find_what="<\?page num='([^<]*)'\?>" replace_with="<span epub_type='pagebreak' class='page' id='page_\1' title='\1'/>" case_sentive="no" regex="yes"/>
+<pre_replace find_what="notes-type='Logo-page'" replace_with="epub_type='frontmatter'" case_sentive="no" regex="yes"/>
+<pre_replace find_what="notes-type='Series-page'" replace_with="epub_type='seriespage'" case_sentive="no" regex="yes"/>
+<pre_replace find_what="notes-type='list-of-authors'" replace_with="epub_type='frontmatter'" case_sentive="no" regex="yes"/>
+<pre_replace find_what="notes-type='Title-page'" replace_with="epub_type='titlepage'" case_sentive="no" regex="yes"/>
+<pre_replace find_what="notes-type='table-of-contents'" replace_with="epub_type='toc'" case_sentive="no" regex="yes"/>
+<pre_replace find_what="content-type='series'" replace_with="content-type='Series'" case_sentive="no" regex="yes"/>
+<pre_replace find_what="<title/>" replace_with="" case_sentive="no" regex="yes"/>
+<pre_replace find_what="<label/>" replace_with="" case_sentive="no" regex="yes"/>
+<pre_replace find_what="<label>\n</lable>" replace_with="" case_sentive="no" regex="yes"/>
+<pre_replace find_what="<label></lable>" replace_with="" case_sentive="no" regex="yes"/>
+<pre_replace find_what="/n</p>" replace_with="</p>" case_sentive="no" regex="yes"/>
+<pre_replace find_what="/n</td>" replace_with="</td>" case_sentive="no" regex="yes"/>
+<pre_replace find_what="<label>([^<]*)</label>\n<title>" replace_with="<title><span epub_type='ordinal'>\1</span> " case_sentive="no" regex="yes"/>
+<pre_replace find_what="<list-item><label>&#x25CB;</label>" replace_with="<list-item>" case_sentive="no" regex="yes"/>
+<pre_replace find_what="<list-item>\n<label>&#x25CB;</label>" replace_with="<list-item>" case_sentive="no" regex="yes"/>
+<pre_replace find_what="<label>([^<]*)</label>\n<caption><p>" replace_with="<caption><p>\1 " case_sentive="no" regex="yes"/>
+<pre_replace find_what="<label>([^<]*)</label><caption><p>" replace_with="<caption><p>\1 " case_sentive="no" regex="yes"/>
+<pre_replace find_what="<label>([^<]*)</label><caption>\n<p>" replace_with="<caption><p>\1 " case_sentive="no" regex="yes"/>
+<pre_replace find_what="<label>([^<]*)</label>\n<caption>\n<p>" replace_with="<caption><p>\1 " case_sentive="no" regex="yes"/>
+
+<pre_replace find_what="<book-part([^<]*)book-part-type='part'([^<]*)book-part-number='([^<']*)'([^<]*)>" replace_with="<book-part\1book-part-type='part'\2\4>\n<p class='ChapterNumber'>\3</p>\n" case_sentive="no" regex="yes"/>
+<pre_replace find_what="<book-part([^<]*)book-part-number='([^<']*)'([^<]*)book-part-type='part'([^<]*)>" replace_with="<book-part\1\3book-part-type='part'\4>\n<p class='ChapterNumber'>\2</p>\n" case_sentive="no" regex="yes"/>
+
+<pre_replace find_what="<book-part([^<]*)book-part-number='([^<']*)'([^<]*)>" replace_with="<book-part\1book-part-number='\2'\3>\n<h2 class='ChapterNumber'>\2</h2>\n" case_sentive="no" regex="yes"/>
+
+
+
+<!--Delete Tag-->
+<delete_tag xpath="" tag_name="book-meta" delete_content="yes"/>
+<delete_tag xpath="title-group" tag_name="" delete_content="no"/>
+<delete_tag xpath="body" tag_name="" delete_content="no"/>
+<delete_tag xpath="book-front" tag_name="" delete_content="no"/>
+<delete_tag xpath="table-wrap" tag_name="table" delete_content="no"/>
+<delete_tag xpath="back" tag_name="" delete_content="no"/>
+<delete_tag xpath="book-part-meta" tag_name="" delete_content="no"/>
+<delete_tag xpath="title-group" tag_name="" delete_content="no"/>
+<delete_tag xpath="sec-meta" tag_name="" delete_content="no"/>
+
+<delete_tag xpath="" tag_name="mixed-citation" delete_content="no"/>
+<delete_tag xpath="" tag_name="person-group" delete_content="no"/>
+<delete_tag xpath="string-name" tag_name="given-names" delete_content="no"/>
+<delete_tag xpath="string-name" tag_name="surname" delete_content="no"/>
+<delete_tag xpath="" tag_name="string-name" delete_content="no"/>
+<delete_tag xpath="" tag_name="book-part[book-part-type='part']" delete_content="no"/>
+
+<!--Rename Tag-->
+<rename_tag xpath="title-group" old_tag="article-title" new_tag="h1" new_attrb="class|epub_type" new_attrb_value="article_title|title" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="contrib-group/contrib" old_tag="name" new_tag="span" new_attrb="class" new_attrb_value="aut_name" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="contrib-group" new_tag="p" new_attrb="class" new_attrb_value="aut_names" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="p" new_tag="p" new_attrb="" new_attrb_value="" remove_attribs="" rename_old_attrib="content-type" rename_new_attrib="class"/>
+<rename_tag xpath="notes[notes-type='copyright-page']" old_tag="p" new_tag="p" new_attrb="class" new_attrb_value="cpytext" remove_attribs="id" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="notes" old_tag="title" new_tag="h2" new_attrb="class" new_attrb_value="ChapterTitle" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="notes" new_tag="section1" new_attrb="" new_attrb_value="" remove_attribs="" rename_old_attrib="notes-type" rename_new_attrib="epub_type"/>
+<rename_tag xpath="bio[content-type='list-of-authors']" old_tag="title" new_tag="h2" new_attrb="class" new_attrb_value="ChapterTitle" remove_attribs="content-type" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="bio[content-type='list-of-authors']" old_tag="p" new_tag="p" new_attrb="class" new_attrb_value="Para" remove_attribs="id" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="bio[content-type='list-of-authors']" new_tag="section1" new_attrb="" new_attrb_value="" remove_attribs="" rename_old_attrib="content-type" rename_new_attrib="epub_type"/>
+<rename_tag xpath="book-part[book-part-type='chapter']/book-part-meta/title-group" old_tag="title" new_tag="h2" new_attrb="class" new_attrb_value="ChapterTitle" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="book-part[book-part-type='chapter']" new_tag="section1" new_attrb="" new_attrb_value="" remove_attribs="xml:lang|indexed|book-part-number|xmlns:mml" rename_old_attrib="book-part-type" rename_new_attrib="epub_type"/>
+<rename_tag xpath="book-part[book-part-type='part']/book-part-meta/title-group" old_tag="title" new_tag="p" new_attrb="class" new_attrb_value="ChapterTitle" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+
+<rename_tag xpath="book/back" old_tag="ref-list" new_tag="section1" new_attrb="" new_attrb_value="" remove_attribs="" rename_old_attrib="content-type" rename_new_attrib="epub_type"/>
+
+
+
+
+
+
+<rename_tag xpath="" old_tag="ext-link" new_tag="a" new_attrb="" new_attrb_value="" remove_attribs="ext-link-type" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="td" new_tag="td" new_attrb="" new_attrb_value="" remove_attribs="style|valign" rename_old_attrib="align" rename_new_attrib="class"/>
+<rename_tag xpath="" old_tag="tr" new_tag="tr" new_attrb="" new_attrb_value="" remove_attribs="style|valign|align" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="th" new_tag="th" new_attrb="" new_attrb_value="" remove_attribs="style|valign" rename_old_attrib="align" rename_new_attrib="class"/>
+<rename_tag xpath="" old_tag="thead" new_tag="thead" new_attrb="" new_attrb_value="" remove_attribs="style|valign|align" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="table-wrap" new_tag="table-wrap" new_attrb="" new_attrb_value="" remove_attribs="orientation" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="col" new_tag="col" new_attrb="" new_attrb_value="" remove_attribs="valign|style" rename_old_attrib="align" rename_new_attrib="class"/>
+<rename_tag xpath="" old_tag="monospace" new_tag="span" new_attrb="class" new_attrb_value="monospace" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="xref" new_tag="a" new_attrb="" new_attrb_value="" remove_attribs="ref-type" rename_old_attrib="rid" rename_new_attrib="href"/>
+<rename_tag xpath="sec/sec/sec/sec/sec" old_tag="sec" new_tag="section7" new_attrb="" new_attrb_value="" remove_attribs="disp-level|indexed" rename_old_attrib="sec-type" rename_new_attrib="epub_type"/>
+<rename_tag xpath="sec/sec/sec/sec" old_tag="sec" new_tag="section6" new_attrb="" new_attrb_value="" remove_attribs="disp-level|indexed" rename_old_attrib="sec-type" rename_new_attrib="epub_type"/>
+<rename_tag xpath="sec/sec/sec" old_tag="sec" new_tag="section5" new_attrb="" new_attrb_value="" remove_attribs="disp-level|indexed" rename_old_attrib="sec-type" rename_new_attrib="epub_type"/>
+<rename_tag xpath="sec/sec" old_tag="sec" new_tag="section4" new_attrb="" new_attrb_value="" remove_attribs="disp-level|indexed" rename_old_attrib="sec-type" rename_new_attrib="epub_type"/>
+<rename_tag xpath="sec" old_tag="sec" new_tag="section3" new_attrb="" new_attrb_value="" remove_attribs="disp-level|indexed" rename_old_attrib="sec-type" rename_new_attrib="epub_type"/>
+<rename_tag xpath="" old_tag="sec" new_tag="section2" new_attrb="" new_attrb_value="" remove_attribs="disp-level|indexed" rename_old_attrib="sec-type" rename_new_attrib="epub_type"/>
+<rename_tag xpath="section7" old_tag="title" new_tag="h6" new_attrb="class|epub_type" new_attrb_value="sec6|title" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="section6" old_tag="title" new_tag="h6" new_attrb="class|epub_type" new_attrb_value="sec5|title" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="section5" old_tag="title" new_tag="h5" new_attrb="class|epub_type" new_attrb_value="sec4|title" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="section4" old_tag="title" new_tag="h4" new_attrb="class|epub_type" new_attrb_value="sec3|title" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="section3" old_tag="title" new_tag="h3" new_attrb="class|epub_type" new_attrb_value="sec2|title" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="section2" old_tag="title" new_tag="h2" new_attrb="class|epub_type" new_attrb_value="sec1|title" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="italic" new_tag="i" new_attrb="" new_attrb_value="" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="bold" new_tag="b" new_attrb="" new_attrb_value="" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="list[list-type='bullet']" new_tag="ul" new_attrb="" new_attrb_value="" remove_attribs="" rename_old_attrib="list-type" rename_new_attrib="class"/>
+<rename_tag xpath="" old_tag="list-item" new_tag="li" new_attrb="" new_attrb_value="" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="break" new_tag="br" new_attrb="" new_attrb_value="" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="graphic" new_tag="img" new_attrb="" new_attrb_value="" remove_attribs="mime-subtype|xmlns:xlink" rename_old_attrib="xlink:href" rename_new_attrib="src"/>
+<rename_tag xpath="ref-list" old_tag="title" new_tag="h3" new_attrb="epub_type|class" new_attrb_value="title|ref-hd" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="ref-list" new_tag="section2" new_attrb="" new_attrb_value="" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="ref" new_tag="p" new_attrb="class" new_attrb_value="biblio" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="fig" old_tag="caption" new_tag="figcaption" new_attrb="" new_attrb_value="" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="" old_tag="fig" new_tag="figure" new_attrb="" new_attrb_value="" remove_attribs="position|orientation" rename_old_attrib="" rename_new_attrib=""/>
+
+
+</conversion>

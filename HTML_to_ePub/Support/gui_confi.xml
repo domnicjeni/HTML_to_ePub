@@ -1,0 +1,17 @@
+<xml>
+<PublisherName>Common,WWNorton,West-Academic,VIP,Vandenhoeck,Hachette,APA,ACM-XML,Kohlhammer_XML,dummy</PublisherName>
+<Language>English-en,German-de,French-fr,Spanish-es</Language>
+<epubVersion>ePub 3,ePub 2</epubVersion>
+<ePubStructure>Semantic,Accessible</ePubStructure>
+<OpfName>content,package,ISBN</OpfName>
+<NCXName>toc,nav,ISBN</NCXName>
+<HTMLFileName>Our Standard,ISBN</HTMLFileName>
+<EntityType>Decimal,Hexa-Decimal,SGML,UTF-8</EntityType>
+<fileSplit>Level 1,Level 2,Level 3</fileSplit>
+<footnoteMovement>Level 1,Level 2,Level 3</footnoteMovement>
+<Navigation>TOC,Level 1,Level 2,Level 3,All Heading</Navigation>
+<RootFolderName>OEBPS,OPS,EPUB,ISBN</RootFolderName>
+<HTMLFolderName>XHTML,xhtml,Text,HTML,No Folder</HTMLFolderName>
+<CSSFolderName>Styles,styles,CSS,Stylesheet,No Folder</CSSFolderName>
+<ImagesFolderName>images,Images,img,No Folder</ImagesFolderName>
+</xml>

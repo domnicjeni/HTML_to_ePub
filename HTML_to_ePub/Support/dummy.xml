@@ -1,0 +1,243 @@
+<?xml version="1.0"?>
+<conversion>
+<!-- Nested Clossing-->
+<!-Main Heading-->
+<1nested findtag="p" find_attrib="class" find_att_value_prefix="" find_att_value="ad-card-head" add_p_tag="section" add_attr="epub:type" attr_val="seriespage" nested_type="section" nested_level="1" nest_parent="body|section1"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="backmatter-title" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="backmatter" nested_type="section" nested_level="1" nest_parent="body|section1"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="frontmatter-title" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="frontmatter" nested_type="section" nested_level="1" nest_parent="body|section1"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="intro-head" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="introduction" nested_type="section" nested_level="1" nest_parent="body|section1"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="content-title" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="toc" nested_type="section" nested_level="1" nest_parent="body|section1"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="ack-head" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="acknowledgments" nested_type="section" nested_level="1" nest_parent="body|section1"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="part-number" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="part" nested_type="section" nested_level="1" nest_parent="body|section1"/>
+<1nested findtag="p" find_attrib="class" find_att_value_prefix="part-title" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="part" nested_type="section" nested_level="1" nest_parent="body|section1"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="chapter-number" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="chapter" nested_type="section" nested_level="1" nest_parent="body"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="chap-title" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="chapter" nested_type="section" nested_level="1" nest_parent="body"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="notes-title" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="endnotes" nested_type="section" nested_level="1" nest_parent="body"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="ind-head" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="index" nested_type="section" nested_level="1" nest_parent="body"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="app-head" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="appendix" nested_type="section" nested_level="1" nest_parent="body"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="glos-head" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="glossary" nested_type="section" nested_level="1" nest_parent="body"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="ref-head" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="bibliography" nested_type="section" nested_level="1" nest_parent="body"/>
+<!-First Level of Heading in Chapter-->
+<nested findtag="p" find_attrib="class" find_att_value_prefix="section-break" find_att_value="" add_p_tag="section" add_attr="epub:type|aria-label" attr_val="subchapter|Section [[seq]]" nested_type="section" nested_level="2" nest_parent="body|section1"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="fm-head1" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="2" nest_parent="body|section1"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="index-ABC" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="2" nest_parent="body|section1"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="notes-head" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="2" nest_parent="body|section1"/>
+<!-Second Level of Heading in Chapter-->
+<nested findtag="p" find_attrib="class" find_att_value_prefix="head2" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="3" nest_parent="body|section1|section2"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="fm-head2" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="3" nest_parent="body|section1|section2"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="bm-head2" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="3" nest_parent="body|section1|section2"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="app-head2" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="3" nest_parent="body|section1|section2"/>
+<!-Third Level of Heading in Chapter-->
+<nested findtag="p" find_attrib="class" find_att_value_prefix="head3" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="4" nest_parent="body|section1|section2|section3"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="fm-head3" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="4" nest_parent="body|section1|section2|section3"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="bm-head3" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="4" nest_parent="body|section1|section2|section3"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="app-head3" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="4" nest_parent="body|section1|section2|section3"/>
+<!-Remaing Level of Heading in Chapter-->
+<nested findtag="p" find_attrib="class" find_att_value_prefix="head4" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="5" nest_parent="body|section1|section2|section3|section4"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="head5" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="6" nest_parent="body|section1|section2|section3|section4|section5"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="head6" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="7" nest_parent="body|section1|section2|section3|section4|section5|section6"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="head7" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="8" nest_parent="body|section1|section2|section3|section4|section5|section6|section7"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="head8" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="9" nest_parent="body|section1|section2|section3|section4|section5|section6|section7|section8"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="head9" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="10" nest_parent="body|section1|section2|section3|section4|section5|section6|section7|section8|section9"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="head-10" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="11" nest_parent="body|section1|section2|section3|section4|section5|section6|section7|section8|section9|section10"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="head-11" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="12" nest_parent="body|section1|section2|section3|section4|section5|section6|section7|section8|section9|section10|section11"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="head-12" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="13" nest_parent="body|section1|section2|section3|section4|section5|section6|section7|section8|section9|section10|section11|section12"/>
+<!-Other Level of Heading in Chapter-->
+<nested findtag="p" find_attrib="class" find_att_value_prefix="other-head1" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="2" nest_parent="body|section1"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="other-head2" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="3" nest_parent="body|section1|section2"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="other-head3" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="4" nest_parent="body|section1|section2|section3"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="other-head4" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="5" nest_parent="body|section1|section2|section3|section4"/>
+<nested findtag="p" find_attrib="class" find_att_value_prefix="other-head5" find_att_value="" add_p_tag="section" add_attr="epub:type" attr_val="subchapter" nested_type="section" nested_level="6" nest_parent="body|section1|section2|section3|section4|section5"/>
+
+<!--Mapping-->
+<!--Heading-->
+<1map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="ad-card-head" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="backmatter-title" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="frontmatter-title" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="notes-title" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="ded-head" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="intro-head" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="content-title" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="ack-head" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="part-title" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="part-number" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="label" self_close="" add_parent="" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="part-tit" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="chapter-number" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="label" self_close="" add_parent="" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="chapter-title" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="en-head" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="ind-head" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="app-head" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="gloss-head" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="ref-head" find_att_value="" htmltag="h2" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="title" find_att_value="" htmltag="h1" add_attr="epub:type" attr_val="title" self_close="" add_parent="" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="subtitle" find_att_value="" htmltag="" add_attr="epub:type" attr_val="subtitle" self_close="" add_parent="" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="chap-subtitle" find_att_value="" htmltag="" add_attr="epub:type" attr_val="subtitle" self_close="" add_parent="" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="halftitle" find_att_value="" htmltag="h1" add_attr="epub:type" attr_val="title" self_close="" add_parent="" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="half-subtitle" find_att_value="" htmltag="" add_attr="epub:type" attr_val="subtitle" self_close="" add_parent="" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="head1" find_att_value="" htmltag="h3" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="fm-head1" find_att_value="" htmltag="h3" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="notes-head" find_att_value="" htmltag="h3" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="app-head1" find_att_value="" htmltag="h3" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="head2" find_att_value="" htmltag="h4" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="fm-head2" find_att_value="" htmltag="h4" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="bm-head2" find_att_value="" htmltag="h4" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="app-head2" find_att_value="" htmltag="h4" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="head3" find_att_value="" htmltag="h5" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="fm-head3" find_att_value="" htmltag="h5" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="bm-head3" find_att_value="" htmltag="h5" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="app-head3" find_att_value="" htmltag="h5" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="head4" find_att_value="" htmltag="h6" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="head5" find_att_value="" htmltag="h6" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="head6" find_att_value="" htmltag="h6" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="head7" find_att_value="" htmltag="h6" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="head8" find_att_value="" htmltag="h6" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="head9" find_att_value="" htmltag="h6" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="head-" find_att_value="" htmltag="h6" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="other-head1" find_att_value="" htmltag="h3" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="other-head2" find_att_value="" htmltag="h4" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="other-head3" find_att_value="" htmltag="h5" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="other-head4" find_att_value="" htmltag="h6" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="other-head5" find_att_value="" htmltag="h6" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="box-head" find_att_value="" htmltag="h3" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="box1-head" find_att_value="" htmltag="h3" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="box2-head" find_att_value="" htmltag="h3" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="box3-head" find_att_value="" htmltag="h3" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="learnobj-head" find_att_value="" htmltag="h3" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="learnres-head" find_att_value="" htmltag="h3" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="learnstd-head" find_att_value="" htmltag="h3" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+<map tagname_to_modyfiy="p" tag_selfcolsed="no" find_attrib="class" find_att_value_prefix="learnout-head" find_att_value="" htmltag="h3" add_attr="epub:type" attr_val="title" self_close="" add_parent="header" add_p_attr="" add_p_attr_val="" add_child="" add_c_attr="" add_c_attr_val="" child_self_close="" content_before="" content_after=""/>
+
+
+
+
+
+<!-- List Type-->
+<listing findtag="p" find_attrib="class" find_att_value_prefix="olist1" find_att_value="olist1" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="olist1" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="olist2" find_att_value="olist2" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="olist2" list_level="2"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="olist3" find_att_value="olist3" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="olist3" list_level="3"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="olist4" find_att_value="olist4" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="olist4" list_level="4"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="olist5" find_att_value="olist5" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="olist5" list_level="5"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="olist6" find_att_value="olist6" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="olist6" list_level="6"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="bull" find_att_value="bull" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="bull" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="bx_bull" find_att_value="bx_bull" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="bx_bull" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="uolist1" find_att_value="uolist1" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="uolist1" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="uolist2" find_att_value="uolist2" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="uolist2" list_level="2"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="uolist3" find_att_value="uolist3" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="uolist3" list_level="3"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="uolist4" find_att_value="uolist4" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="uolist4" list_level="4"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="uolist5" find_att_value="uolist5" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="uolist5" list_level="5"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="uolist6" find_att_value="uolist6" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="uolist6" list_level="6"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="pllist1" find_att_value="pllist1" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="pllist1" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="pllist2" find_att_value="pllist2" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="pllist2" list_level="2"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="pllist3" find_att_value="pllist3" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="pllist3" list_level="3"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="pllist4" find_att_value="pllist4" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="pllist4" list_level="4"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="pllist5" find_att_value="pllist5" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="pllist5" list_level="5"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="pllist6" find_att_value="pllist6" add_p_tag="li" add_attr="" attr_val="" list_type="ul" list_attr="class" list_attr_val="pllist6" list_level="6"/>
+
+<listing findtag="p" find_attrib="class" find_att_value_prefix="learnobj-olist" find_att_value="learnobj-olist" add_p_tag="li" add_attr="epub:type" attr_val="learning-object" list_type="ol" list_attr="class" list_attr_val="learnobj-olist" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="learnres-olist" find_att_value="learnres-olist" add_p_tag="li" add_attr="epub:type" attr_val="learning-resource" list_type="ol" list_attr="class" list_attr_val="learnres-olist" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="learnout-olist" find_att_value="learnout-olist" add_p_tag="li" add_attr="epub:type" attr_val="learning-outcome" list_type="ol" list_attr="class" list_attr_val="learnout-olist" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="learnstd-olist" find_att_value="learnstd-olist" add_p_tag="li" add_attr="epub:type" attr_val="learning-standard" list_type="ol" list_attr="class" list_attr_val="learnstd-olist" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="learnobj-uolist" find_att_value="learnobj-uolist" add_p_tag="li" add_attr="epub:type" attr_val="learning-object" list_type="ul" list_attr="class" list_attr_val="learnobj-uolist" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="learnres-uolist" find_att_value="learnres-uolist" add_p_tag="li" add_attr="epub:type" attr_val="learning-resource" list_type="ul" list_attr="class" list_attr_val="learnres-uolist" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="learnout-uolist" find_att_value="learnout-uolist" add_p_tag="li" add_attr="epub:type" attr_val="learning-outcome" list_type="ul" list_attr="class" list_attr_val="learnout-uolist" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="learnstd-uolist" find_att_value="learnstd-uolist" add_p_tag="li" add_attr="epub:type" attr_val="learning-standard" list_type="ul" list_attr="class" list_attr_val="learnstd-uolist" list_level="1"/>
+
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc1" find_att_value="toc1" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc1" find_att_value="toc1-1" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc1" find_att_value="toc1-2" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="1"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc2" find_att_value="toc2" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="2"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc3" find_att_value="toc3" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="3"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc4" find_att_value="toc4" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="4"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc5" find_att_value="toc5" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="5"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc6" find_att_value="toc6" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="6"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc6" find_att_value="toc6-3" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="6"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc6" find_att_value="toc6-4" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="6"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc6" find_att_value="toc6-5" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="6"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc7" find_att_value="toc7" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="7"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc8" find_att_value="toc8" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="8"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc9" find_att_value="toc9" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="9"/>
+<listing findtag="p" find_attrib="class" find_att_value_prefix="toc-10" find_att_value="toc-10" add_p_tag="li" add_attr="" attr_val="" list_type="ol" list_attr="class" list_attr_val="toc-list" list_level="10"/>
+
+
+
+
+
+<!-- Footnote Moment-->
+<footnote findtag="p" find_attrib="class" find_att_value_prefix="fn_" find_att_value="" add_p_tag="section" add_attr="epub:type|aria-label" attr_val="footnotes|Footnotes_[[seq]]" to_move_under="section1" move_before="" move_after=""/>
+
+<!-- Group Tagging-->
+<!-Section Grouping-->
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="" find_att_value="part-number|part-title" grouptag="header" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="" find_att_value="image|logo|caption" grouptag="figure" add_attr="" attr_val="" nested_type="" nested_level="" group_start="image|logo"/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="" find_att_value="chapter-number|chapter-title" grouptag="header" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="" find_att_value="chap-subtitle|chap-title" grouptag="header" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="" find_att_value="title|subtitle|author|author-aff|logo|publisher|edition|volume|editors|translators|publisher-loc|alsoby|book-section" grouptag="section" add_attr="epub:type" attr_val="titlepage" nested_type="section" nested_level="1" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="ded-" find_att_value="" grouptag="section" add_attr="epub:type|aria-label" attr_val="dedication|Dedication Page" nested_type="section" nested_level="1" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="copyright" find_att_value="" grouptag="section" add_attr="epub:type|aria-label" attr_val="copyright-page|Copyright Page" nested_type="section" nested_level="1" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="ad-card" find_att_value="" grouptag="section" add_attr="epub:type|aria-label" attr_val="seriespage|Series Page" nested_type="section" nested_level="1" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="halftitle" find_att_value="" grouptag="section" add_attr="epub:type" attr_val="halftitlepage" nested_type="section" nested_level="1" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="" find_att_value="title|subtitle" grouptag="header" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="" find_att_value="halftitle" grouptag="header" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<!-Other Grouping-->
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="extract" find_att_value="" grouptag="blockquote" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="letter" find_att_value="" grouptag="blockquote" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="question-answer" find_att_value="" grouptag="blockquote" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="box-" find_att_value="" grouptag="aside" add_attr="epub:type|class|aria-label" attr_val="case-study|box|Box [[seq]]" nested_type="" nested_level="" group_start="box-head"/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="bx_" find_att_value="" grouptag="aside" add_attr="epub:type|class|aria-label" attr_val="case-study|box|Box [[seq]]" nested_type="" nested_level="" group_start="bx_head"/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="box1-" find_att_value="" grouptag="aside" add_attr="epub:type|class|aria-label" attr_val="case-study|box1|Box Type1 [[seq]]" nested_type="" nested_level="" group_start="box1-head"/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="box2-" find_att_value="" grouptag="aside" add_attr="epub:type|class|aria-label" attr_val="case-study|box2|Box Type2 [[seq]]" nested_type="" nested_level="" group_start="box2-head"/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="box3-" find_att_value="" grouptag="aside" add_attr="epub:type|class|aria-label" attr_val="case-study|box3|Box Type3 [[seq]]" nested_type="" nested_level="" group_start="box3-head"/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="box-block-" find_att_value="" grouptag="blockquote" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="box1-block-" find_att_value="" grouptag="blockquote" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="box2-block-" find_att_value="" grouptag="blockquote" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="box3-block-" find_att_value="" grouptag="blockquote" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="box5-block-" find_att_value="" grouptag="blockquote" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="learnobj-" find_att_value="" grouptag="aside" add_attr="epub:type|class|aria-label" attr_val="learning-objects|learn-objects|Learning Objects [[seq]]" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="learnres-" find_att_value="" grouptag="aside" add_attr="epub:type|class|aria-label" attr_val="learning-resources|learn-resources|Learning Resources [[seq]]" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="learnout-" find_att_value="" grouptag="aside" add_attr="epub:type|class|aria-label" attr_val="learning-outcomes|learn-outcomes|Learning Outcomes [[seq]]" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="learnstd-" find_att_value="" grouptag="aside" add_attr="epub:type|class|aria-label" attr_val="learning-standards|learn-standards|Learning Standards [[seq]]" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="learnstd-" find_att_value="" grouptag="aside" add_attr="epub:type|class|aria-label" attr_val="learning-standards|learn-standards|Learning Standards [[seq]]" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="toc" find_att_value="" grouptag="nav" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="syn_" find_att_value="" grouptag="nav" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="ptoc" find_att_value="" grouptag="nav" add_attr="" attr_val="" nested_type="" nested_level="" group_start=""/>
+<group_map tagname_to_group="p" find_attrib="class" find_att_value_prefix="comment_" find_att_value="" grouptag="aside" add_attr="class|epub:type|aria-label" attr_val="commands|case-study|Comennd [[seq]]" nested_type="" nested_level="" group_start=""/>
+
+
+
+
+
+
+<pre_replace find_what="<span id='page_" replace_with="<span epub_type='pagebreak' id='page_" case_sentive="no" regex="no"/>
+
+
+
+<pageList IDprefix="page_" chapterRestart="no" chapterPageIDPrefix="ch" pattern="{chapno}-" chap_no_roman="yes" targetEpubType="chapter" frontmatterRoman="yes" pageIdSequenc="no"/>
+<pageList IDprefix="page_" chapterRestart="yes" chapterPageIDPrefix="P" pattern="{chapprefix}-{chapno}-" chap_no_roman="yes" targetEpubType="part" frontmatterRoman="yes" pageIdSequenc="yes"/>
+<pageList IDprefix="page_" chapterRestart="yes" chapterPageIDPrefix="FM" pattern="{chapprefix}-" chap_no_roman="yes" targetEpubType="frontmatter" frontmatterRoman="yes" pageIdSequenc="yes"/>
+<pageList IDprefix="page_" chapterRestart="yes" chapterPageIDPrefix="BM" pattern="{chapprefix}-" chap_no_roman="yes" targetEpubType="backmatter" frontmatterRoman="yes" pageIdSequenc="yes"/>
+
+
+<!-- pattern-->
+<example>
+{prefix} = IDprefix
+{chapno} = chapter number
+{chapprefix} = chapterPageIDPrefix
+</example>
+
+
+<post_replace find_what="<ol class='ol'>\n(<li><p class='list[0-9]+_ol\'>)(<[a-z]+>)*([0-9]+)\." replace_with="<ol class='number_list'>\n\1\2\3." case_sentive="no" regex="yes"/>
+
+
+<!--XML-->
+<delete_tag xpath="book" tag_name="book-meta" delete_content="yes"/>
+
+
+
+
+<rename_tag xpath="book-part[book-part-type='part']/book-part-meta/title-group" old_tag="label" new_tag="p" new_attrb="class" new_attrb_value="part_num" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+<rename_tag xpath="book-part[book-part-type='part']/book-part-meta/title-group" old_tag="title" new_tag="p" new_attrb="class" new_attrb_value="part_title" remove_attribs="" rename_old_attrib="" rename_new_attrib=""/>
+
+
+<merge_tag tag_names="" new_tag="" new_attrb="" new_attrb_value="" />
+
+</conversion>
